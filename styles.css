@@ -1,0 +1,22 @@
+*{
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    background: #d8f4fff5;
+}
+
+h1.title{
+    font-size: 2cm;
+    font-weight: lighter;
+}
+
+#roll{
+background:#6ae0b9;
+font-weight: bold;
+}
+
+#reset{
+background:#d83c3c;
+font-weight: bold;
+}

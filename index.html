@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice roller</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 class="title level-item has-text-centered pt-6">Dice Roller</h1>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-two-thirds is-offset-2">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="nika-benedictova-LtlIMndFzD4-unsplash.jpg" alt="dice">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <label for="sideNum" class="label is-medium is-inline has-text-weight-light">Select
+                                    number of sides</label>
+                                <div class="select is-rounded">
+                                    <select name="sideNum" id="sideNum">
+                                        <option value="4">4</option>
+                                        <option value="6">6</option>
+                                        <option value="8">8</option>
+                                        <option value="10">10</option>
+                                        <option value="12">12</option>
+                                        <option value="20">20</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <h2 class="title is-4" id="numResult">Your number is: <span id="result">0</span>
+                                        </h2>
+                                </div>
+                                <footer class="card-footer">
+                                    <button id="roll" type="button"
+                                        class="button is-primary card-footer-item is-medium is-rounded">Roll!</button>
+                                    <button id="reset" type="button"
+                                        class="button is-danger card-footer-item is-medium is-rounded">Reset</button>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+<script src="app.js"></script>
+</body>
+
+</html>
